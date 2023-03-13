@@ -1,0 +1,49 @@
+1)top 10 users to replied the most to others in original
+# of times - author id
+    106 380648579
+    104 18831926
+     83 16050065
+     45 1240682348120866816
+     35 1094971056358637568
+     34 140496030
+     34 1387010761994682371
+     32 172323296
+     27 117810351
+     19 1573800344
+2) top 10 users who got the most replies in original, pretty similar to first question, hopefully not wrong
+# of times - author id
+    112 18831926
+    107 380648579
+     83 16050065
+     45 3453306553
+     37 1094971056358637568
+     34 140496030
+     32 172323296
+     30 29447428
+     30 1240682348120866816
+     29 117810351
+3) top 10 who retweeted the most:
+# of retweets - author id
+   2065 45379403
+   1678 77726331
+   1641 870244616003403781
+   1582 1028022611324747776
+   1312 711608180535640064
+   1281 139109800
+   1234 177400353
+   1216 832019161454817280
+   1159 29447428
+   1139 1060440219097423872
+4) 30 most used hashtags, does no hashtags count ill just include the blank space one anyways 
+# of times hashtag appears - hashtag:
+  20641 
+   1165 Ukraine
+    811 LongCovid
+    782 COVID19
+    304 BREAKING
+    301 Russia
+    197 auspol
+    166 PMQs
+    161 Omicron
+    161 Mariupol
+    133 Kyiv

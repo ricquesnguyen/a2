@@ -1,0 +1,154 @@
+  1)  where i try to solve 1,
+  710  cd cs131
+  711  cd a21
+  712  cd a2
+  713  head -1 original.tsv
+  714  head -1 tweets.tsv
+  715  head -3 tweets.tsv
+  716  head -3 original.tsv
+  717  clear
+  718  head -1 original.tsv
+  719  head -1 tweets.tsv
+  720  vim original.tsv
+  721  vi tweets.tsv
+  722  vi original.tsv
+  723  cut -f1 original.tsv
+  724  cut -f1 original.tsv | head -10
+  725  clear
+  726  cut -f1 original.tsv | head -10
+  727  cut -f1 original.tsv | head -11
+  728  cut -f1 original.tsv |sort -g | head -11
+  729  cut -f1 original.tsv |sort | head -11
+  730  cut -f1 original.tsv |sort | head -12
+  731  vi original.tsv
+  732  grep -w "type=replied_to" original.txt | head -10
+  733  grep -w "type=replied_to" original.tsv | head -10
+  734  grep -w "type=replied_to" original.tsv |cut -f1| head -10
+  735  grep -w "type=replied_to" original.tsv |cut -f1|sort -n| head -10
+  736  grep -w "type=replied_to" original.tsv |cut -f1|sort -g| head -10
+  737  grep -w "type=replied_to" original.tsv |cut -f1|sort -g|uniq -c| head -10
+  738  grep -w "type=replied_to" original.tsv |cut -f1|uniq -c| head -10
+  739  grep -w "type=replied_to" original.tsv |cut -f1|sort -n|uniq -c| head -10
+  740  grep -w "type=replied_to" original.tsv |cut -f1|sort -nr|uniq -c| head -10
+  741  grep -w "type=replied_to" original.tsv |cut -f1|sort -r|uniq -c| head -10
+  742  grep -w "type=replied_to" original.tsv |cut -f1|sort -g|uniq -c| head -10
+  743  clear
+  744  grep -w "type=replied_to" original.tsv |cut -f1|sort -g|uniq -c| head -10
+  745  grep -w "type=replied_to" original.tsv |sort -g|uniq -c| head -10
+  746  grep -w "type=replied_to" original.tsv 
+  747  grep -w "type=replied_to" original.tsv | sort -g | uniq -c | head -10
+  748  grep -w "type=replied_to" original.tsv | sort -gr | uniq -c | head -10
+  749  grep -w "type=replied_to" original.tsv | sort -gr | uniq -c 
+  750  clear
+  751  cut -f1 original.tsv | sort -gr | uniq -c | head -10
+  752  cut -f1 original.tsv | sort -g | uniq -c | head -10
+  753  cut -f1 original.tsv | sort -g | uniq -c | head -20
+  754  original.tsv
+  755  ls original.tsv
+  756  vi original.tsv
+  757  cut -b 1-19 original.tsv | sort -gr | uniq -c | head -10
+  758  grep -w "type=replied_to" original.tsv |cut -b 1-19 original.tsv| sort -g | uniq -c | head -10
+  759  grep -w "type=replied_to" original.tsv |cut -f1 original.tsv| sort -g | uniq -c | head -10
+  760  grep -w "type=replied_to" original.tsv |cut -f1|sort -r|uniq -c| head -10
+  761  grep -w "type=replied_to" original.tsv |cut -f1|sort -g|uniq -c| head -10
+  762  grep -w "type=replied_to" original.tsv |cut -f1|sort -g|uniq -c
+  763  grep -w "type=replied_to" original.tsv |cut -f1|sort -g|uniq -c | head -10
+  764  grep -w "type=replied_to" original.tsv |cut -f1|sort -n|uniq -c | head -10 | wc -l
+  765  grep -w "type=replied_to" original.tsv |cut -f1|sort -n|uniq -c | head -10 
+  766  cut -f1 original.tsv |cut -f1|sort -n|uniq -c | head -10 
+  767  cut -f1 original.tsv |cut -f1|sort -g|uniq -c | head -10 
+  768  cut -f1 original.tsv |cut -f1|sort -g|uniq -c | head -20
+  769  cut -f2 original.tsv
+  770  vi original.tsv
+  771  clear
+  772  grep -w "type=replied_to" original.tsv |sort -n|uniq -c | head -10 
+  773  grep -w "type=replied_to" original.tsv |sort -g|uniq -c | head -10 
+  774  grep -w "type=replied_to" original.tsv |sort -g|uniq -c | head -30
+  775  vi tweets.tsv
+  776  vi original.tsv
+  777  clear
+  778  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c | head -10 | wc -l
+  779  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c | head -10 
+  780  grep -w "type=replied_to" original.tsv |cut -f2|sort -n|uniq -c | head -10 
+  781  grep -w "type=replied_to" original.tsv |cut -f2|sort -n|uniq -c |sort -n| head -10 
+  782  grep -w "type=replied_to" original.tsv 
+  783  grep -w "type=replied_to" original.tsv | cut -f2
+  784  clear
+  785  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c | head -10 
+  786  grep -w "type=replied_to" original.tsv |cut -f2|sort|uniq -c | head -10 
+  787  grep -w "type=replied_to" original.tsv |head -10
+  788  grep -w "type=replied_to" original.tsv |cut -d " " -f 2 | head -10
+  789  grep -w "type=replied_to" original.tsv |cut -d " " -f1 | head -10
+  790  grep -w "type=replied_to" original.tsv |cut -d " " -f 1 | head -10
+  791  grep -w "type=replied_to" original.tsv |cut -d " " -f 1 |sort -g| head -10
+  792  grep -w "type=replied_to" original.tsv |cut -d "\t" -f 1 |sort -g| head -10
+  793  grep -w "type=replied_to" original.tsv |cut -d '\t' -f 1 |sort -g| head -10
+  794  cut --help
+  795  clear
+  796  grep -w "type=replied_to" original.tsv |cut -d '\t' -f 1 |sort -g| head -10
+  797  grep -w "type=replied_to" original.tsv |cut -d|sort -g| head -10
+  798  grep -w "type=replied_to" original.tsv |cut |sort -g| head -10
+  799  grep -w "type=replied_to" original.tsv |cut -f1|sort -g| head -10
+  800  grep -w "type=replied_to" original.tsv |cut -f2|sort -g| head -10
+  801  grep -w "type=replied_to" original.tsv |cut -f2|sort -g| head -30
+  802  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c| head -30
+  803  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c|sort -g| head -30
+  804  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c|sort| head -30
+  805  grep -w "type=replied_to" original.tsv |cut -f2|sort -g|uniq -c|sort| head -10
+  806  grep -w "type=replied_to" original.tsv |cut -f2
+  807  grep -w "type=replied_to" original.tsv 
+  808  grep -w "type=replied_to" original.tsv |head -10
+  809  vi original.tsv
+  810  vi original.tsv | head -10
+  811  cd cs131
+  812  cd a2
+  813  ls
+  814  grep "type=replied_to" original.tsv | head -10
+  815  grep "type=replied_to" original.tsv |cut -f2| head -10
+  816  grep "type=replied_to" original.tsv |cut -f2|sort -g| head -10
+  817  grep "type=replied_to" original.tsv |cut -f2|sort -n| head -10
+  818  grep "type=replied_to" original.tsv |cut -f2| head -10
+  819  grep "type=replied_to" original.tsv |cut -f2|uniq -c| head -10
+  820  grep "type=replied_to" original.tsv |cut -f2|sort -n| uniq -c| head -10
+  821  grep "type=replied_to" original.tsv |cut -f2|sort -nr| uniq -c| head -10
+  822  grep "type=replied_to" original.tsv |cut -f2|sort -g| uniq -c| head -10
+  823  grep "type=replied_to" original.tsv |cut -f2 head -10
+  824  grep "type=replied_to" original.tsv |cut -f2| head -10
+  825  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c| head -10
+  826  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c
+  827  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | wc -l
+  828  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort
+  829  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c
+  830  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort
+  831  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort > orig.txt
+  832  vim orig.txt
+  833  sort orig.txt
+  834  sort -g orig.txt
+  835  clear
+  836  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort -g
+  837  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort -gr | head -10
+  838  vi a2.txt
+  839  grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort -gr | head -10 > a2.txt
+  840  vi a2.txt
+  2) top 10 who got the most replies
+  841  vi original.csv
+  842  ls
+  843  vi original.tsv
+  844  grep "type=replied_to" original.tsv |cut -f6|sort| uniq -c | sort -gr | head -10 > a2.txt
+  845* grep "type=replied_to" original.tsv |cut -f2|sort| uniq -c | sort -gr | head -
+  846  vi a2.txt
+  847  grep "type=replied_to" original.tsv |cut -f6|sort| uniq -c | sort -gr | head -10 
+  848  grep "type=replied_to" original.tsv |cut -f6|sort| uniq -c | sort -gr | head -10 >> a2.txt
+  849  vi a2.txt
+  3) top 10 who retweeted the most
+  850  vi tweets.tsv
+  851  grep "type=retweeted" tweets.tsv |cut -f2|sort| uniq -c | sort -gr | head -10 
+  852  grep "type=retweeted" tweets.tsv |cut -f2|sort| uniq -c | sort -gr | head -10 >> a2.txt
+  853  vi a2.txt
+  854  vi tweets.tsv
+  4) most hashtags
+  855  grep "type=retweeted" tweets.tsv |cut -f4|sort| uniq -c | sort -gr | head -10 
+  856  grep "type=retweeted" tweets.tsv |cut -f4|sort| uniq -c | sort -gr | head -11 
+  857  grep "type=retweeted" tweets.tsv |cut -f4|sort| uniq -c | sort -gr | head -11 >> a2.txt
+  858  vi a2.txt
+  859  history >cmds.log
